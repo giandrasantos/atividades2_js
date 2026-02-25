@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratos da Giandra</title>
+</head>
+<body>
+    <script>
+        let pratos = prompt("Escolha o prato que você deseja").toUpperCase();
+        switch(pratos){
+            case "PIZZA":
+                document.write("Irei preparar sua pizza.");
+                break;
+            case "HAMBURGUER":
+                document.write("Boa escolha, vou preparar.");
+                break;
+            case "SUSHI":
+                document.write("Já está a caminho.");
+                break;
+            case "SALADA":
+                document.write("Hum, uma opção fitness, já irei trazer.");
+                break;
+                default:
+                    document.write("Esse prato não está disponível.");
+                    break;
+        }
+    </script>
+</body>
+</html>
